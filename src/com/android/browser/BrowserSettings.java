@@ -776,7 +776,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     // -----------------------------
 
     public boolean useQuickControls() {
-        return mPrefs.getBoolean(PREF_ENABLE_QUICK_CONTROLS, false);
+        return mPrefs.getBoolean(PREF_ENABLE_QUICK_CONTROLS, true);
     }
 
     public boolean useMostVisitedHomepage() {

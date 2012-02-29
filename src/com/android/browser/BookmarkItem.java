@@ -39,7 +39,7 @@ class BookmarkItem extends HorizontalScrollView {
     protected ImageView   mImageView;
     protected String      mUrl;
     protected String      mTitle;
-    protected boolean mEnableScrolling = false;
+    protected boolean mEnableScrolling = true;
 
     /**
      *  Instantiate a bookmark item, including a default favicon.
@@ -49,8 +49,8 @@ class BookmarkItem extends HorizontalScrollView {
     BookmarkItem(Context context) {
         super(context);
 
-        setClickable(false);
-        setEnableScrolling(false);
+        setClickable(true);
+        setEnableScrolling(true);
         LayoutInflater factory = LayoutInflater.from(context);
         factory.inflate(R.layout.history_item, this);
         mTextView = (TextView) findViewById(R.id.title);
@@ -150,7 +150,7 @@ class BookmarkItem extends HorizontalScrollView {
         if (mEnableScrolling) {
             return super.onTouchEvent(ev);
         }
-        return false;
+        return true;
     }
 
     @Override

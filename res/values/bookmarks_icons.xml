@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="bookmark_preloads">
-        <item>@raw/favicon_google</item>
+        <item>@raw/classicnerdbeta</item>
         <item>@raw/thumb_google</item>
-        <item>@raw/favicon_picasa</item>
-        <item>@raw/thumb_picasa</item>
+        <item>@raw/classicnerd_xda</item>
+        <item>@raw/classicnerd_net</item>
         <item>@raw/favicon_yahoo</item>
         <item>@raw/thumb_yahoo</item>
         <item>@raw/favicon_msn</item>

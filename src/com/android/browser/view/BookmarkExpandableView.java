@@ -55,7 +55,7 @@ public class BookmarkExpandableView extends ExpandableListView
     public static final String LOCAL_ACCOUNT_NAME = "local";
 
     // Experimental drag & drop
-    private static final boolean ENABLE_DRAG_DROP = false;
+    private static final boolean ENABLE_DRAG_DROP = true;
 
     private BookmarkAccountAdapter mAdapter;
     private int mColumnWidth;

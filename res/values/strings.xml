@@ -778,22 +778,22 @@
     <string-array name="bookmarks" translatable="false">
         <item>Google</item>
         <item>http://www.google.com/</item>
-        <item>Picasa</item>
-        <item>http://picasaweb.google.com/</item>
-        <item>Yahoo!</item>
-        <item>http://www.yahoo.com/</item>
-        <item>MSN</item>
-        <item>http://www.msn.com/</item>
-        <item>Twitter</item>
-        <item>http://twitter.com/</item>
-        <item>Facebook</item>
-        <item>http://www.facebook.com/</item>
-        <item>Wikipedia</item>
-        <item>http://www.wikipedia.org/</item>
-        <item>eBay</item>
-        <item>http://www.ebay.com/</item>
-        <item>CNN</item>
-        <item>http://www.cnn.com/</item>
+        <item>Classicnerd</item>
+        <item>http://www.classicnerd.net</item>
+        <item>Classicnerd Betas Downloads</item>
+        <item>http://www.classicnerd.net/Betas</item>
+        <item>TommyTomatoe</item>
+        <item>http://www.classictomatoe.net</item>
+        <item>Leoisright Twitter</item>
+        <item>http://twitter.com/#!/leoisright/</item>
+        <item>Classicnerd XDA Thread</item>
+        <item>http://forum.xda-developers.com/showthread.php?t=1472892</item>
+        <item>Classicnerd Goodies</item>
+        <item>http://www.classicnerd.net/Goodies/</item>
+        <item>Evervolv</item>
+        <item>http://www.evervolv.com</item>
+        <item>Open Source Github</item>
+        <item>https://github.com/tommytomatoe/</item>
         <item>NY Times</item>
         <item>http://www.nytimes.com/</item>
         <item>ESPN</item>
