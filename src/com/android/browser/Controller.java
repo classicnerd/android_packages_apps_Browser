@@ -257,7 +257,7 @@ public class Controller
     }
 
     void start(final Bundle icicle, final Intent intent) {
-        boolean noCrashRecovery = intent.getBooleanExtra(NO_CRASH_RECOVERY, false);
+        boolean noCrashRecovery = intent.getBooleanExtra(NO_CRASH_RECOVERY, true);
         if (icicle != null || noCrashRecovery) {
             doStart(icicle, intent, false);
         } else {
@@ -1465,9 +1465,9 @@ public class Controller
 
     @Override
     public void updateMenuState(Tab tab, Menu menu) {
-        boolean canGoBack = false;
-        boolean canGoForward = false;
-        boolean isHome = false;
+        boolean canGoBack = true;
+        boolean canGoForward = true;
+        boolean isHome = true;
         boolean isDesktopUa = false;
         boolean isLive = false;
         if (tab != null) {
@@ -1563,7 +1563,7 @@ public class Controller
                 break;
 
             case R.id.add_bookmark_menu_id:
-                Intent bookmarkIntent = createBookmarkCurrentPageIntent(false);
+                Intent bookmarkIntent = createBookmarkCurrentPageIntent(true);
                 if (bookmarkIntent != null) {
                     mActivity.startActivity(bookmarkIntent);
                 }

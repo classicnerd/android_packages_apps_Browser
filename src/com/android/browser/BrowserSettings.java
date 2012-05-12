@@ -169,7 +169,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
             // low end devices, we only cache one page. For high end devices, we try
             // to cache more pages, currently choose 5.
             if (ActivityManager.staticGetMemoryClass() > 16) {
-                mPageCacheCapacity = 5;
+                mPageCacheCapacity = 10;
             }
             mWebStorageSizeManager = new WebStorageSizeManager(mContext,
                     new WebStorageSizeManager.StatFsDiskInfo(getAppCachePath()),
